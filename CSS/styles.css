@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {background-color:black}
+#wrapper {  width:1000px; background:white; margin:0 auto}
+
+#header { background:url(../web_image/header_bg.png) repeat-x; height:241px}
+
+#logo {float:right; margin-top:93px; margin-right:20px}
+
+#slinks {float:left; margin:173px 0 0 20px}
+
+
+<!-- horizontal menue (start) -->
+<!-- #menue { background:url(../web_image/menue-bg.png) no-repeat; width:1000px; height:100px} -->
+#menue { background:url(../web_image/menue-bg.png) no-repeat ; width:1000px; height:100px}
+ 
+#navbar {float:right}
+#navbar ul {float:right}
+#navbar ul li {float:right; line-height:60px; padding:0 14px}
+#navbar ul li a{ color:#a4a0a0; text-decoration:none; font-family:Tahoma, Geneva, sans-serif; font-size:14px}
+#navbar ul li:first-child a {color:#b3400f}
+#navbar ul li:hover a{color:#b3400f}
+/* horizontal menue (end) */
+
+
+#search {direction:rtl; float:left; margin-left:20px;}
+#search input[type=text] {height:38px; width:286px;  ; padding-right:10px; border:3px solid #a6b3c0 ; color:#555556; font-family:Tahoma, Geneva, sans-serif; font-size:15px}
+#search input[type=submit] { background:url(../web_image/search.png); width:87px; height:65px; border:0; margin-top:3px}
+
+#contents {width:1000px; clear:both}
+#right-bar { width:179px; float:right; margin: 0 20px 0 0;}
+
+#right-menu {direction:rtl; background:url(../web_image/right_menue.png) no-repeat; height:371px;padding-right:40px }
+#right-menu h1{color:#555556; font-size:20px; text-align:center; padding-top:20px; margin-bottom:5px; margin-right:-30px } 
+#right-menu ul {}
+#right-menu ul li { list-style-image:url(../web_image/arrow.png); }
+#right-menu ul li a { text-decoration:none; color:#555556; font-size:16px; font-family:Tahoma, Geneva, sans-serif; line-height:150%; }
+#right-menu ul li:hover a { color:#b3400f}
+
+.right-add {direction:rtl; text-align:center; margin: 10px auto}
+.right-add imag { height:179px; height:268px}
+.right-add h2 {  font-family:Tahoma, Geneva, sans-serif; color:#b3400f; font-size:14px}
+.right-add h3 { font-family:Tahoma, Geneva, sans-serif; color:#888686; font-size:14px}
+.right-add a {text-decoration:none; color:#009; font-family:Tahoma, Geneva, sans-serif; font-size:14px}
+
+#left-content { width:801px; float:left; }
+
+#upper-left-contents { text-align:left}
+.upper-add { direction:rtl; float:right; text-align:center; margin:0 19px 27px 19px}
+.upper-add imag { width:177px; height:286px}
+.upper-add h2 {  font-family:Tahoma, Geneva, sans-serif; color:#b3400f; font-size:12px; margin-top:5px;}
+.upper-add h3 { font-family:Tahoma, Geneva, sans-serif; color:#888686; font-size:12px; margin-top:5px;}
+.upper-add a {text-decoration:none; color:#009; font-family:Tahoma, Geneva, sans-serif; font-size:12px}
+
+#lower-left-contents {clear:both; width:763px; margin-left:20px; line-height:175%;}
+#lower-left-contents h1 { font-family:Tahoma, Geneva, sans-serif; font-size:12px; direction:rtl; color:white; text-align:right; padding-right:7px; margin-top: -30px}
+
+.lower-book { direction:rtl; width:323px; height:135px;float:right; margin:20px 0 0 58px;}
+.lower-book img { float:right; margin-left:12px; }
+.lower-book h2 {direction:rtl; line-height:150%; font-family:Tahoma, Geneva, sans-serif; font-size:12px }
+.lower-book h2 span { color:#b3400f;}
+.lower-book a {text-decoration:none;float: left; color:#009; font-family:Tahoma, Geneva, sans-serif; font-size:12px}
+.lower-book a:hover {color:#b3400f}
+.lower-book:hover {background-color:whitesmoke; width:313px; height:125px; padding:5px;  }
+
+ 
+
+#footer {width:1000px; height:60px; clear:both; text-align:center; font-family:Tahoma, Geneva, sans-serif; line-height:25px; padding-top:10px }
+#footer hr {width:1000px; height:2px; background-color:#b3400f; }
+#footer a  { text-decoration:none; color:#353333; font-size:16px}
+#footer a:hover {color:#b3400f} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
